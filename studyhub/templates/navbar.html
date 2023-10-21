@@ -1,4 +1,8 @@
 <div>
-    <h2>NavBar</h2>
+    <a href="{% url 'home' %}"><h1>LOGO</h1></a>
+    <form method="GET" action="{% url 'home' %}">
+        <input type="text" name="q" placeholder="Search Room...">
+    </form>
+    
     <hr>
 <div>
